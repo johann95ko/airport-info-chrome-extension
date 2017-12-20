@@ -1,0 +1,17 @@
+{
+	"name": "Airport Information",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Information on US airports",
+	"browser_action": {
+		"Default_icon": "plane.png",
+		"default_popup": "popup.html"
+		},
+	"web_accessible_resources": [
+	"plane.png",
+	"popup.js"
+	],
+	"permissions": [
+	"http://services.faa.gov/"
+	]
+}
